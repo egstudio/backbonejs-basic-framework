@@ -15,6 +15,6 @@ require.config({
 	}
 });
 
-require(['jquery', 'underscore', 'backbone', 'app'], function($, _, Backbone, App) {
+require(['app'], function(App) {
 	App.init();
 });
